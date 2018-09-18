@@ -1,0 +1,61 @@
+/* 3. General */
+main {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+* {
+	font-family: "Arial", sans-serif;
+	color: black;
+}
+
+/* 3.1 En-tete */
+header {
+	max-width: 1200px;
+	height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #14597f;
+	border-bottom: 1px;
+	border-bottom-color: #0b2d3d;
+}
+
+header > a {
+	float: left;
+}
+
+header > nav {
+	float: right;
+}
+
+header > nav > ul > li > a{
+	color: white;
+}
+
+.active {
+	background-color: #1fb5e9;
+	border-radius: 4px;
+}
+
+.fa-shopping-cart {
+	color: #14597f;
+}
+
+.shopping-cart{
+	position: relative;
+}
+
+.count {
+	color: #d9534f;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* 3.2 Pied de page */
+footer {
+	max-width: 1200px;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+}
