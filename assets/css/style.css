@@ -93,3 +93,27 @@ footer {
 	border-top: 1px solid;
 	border-color: #cccccc;
 }
+
+/* 3.3 Page d'accueil */
+#home-img {
+	float: right;
+	width: 40%;
+	height: 40%;
+}
+
+.btn {
+	padding: 10px;
+	background-color: #14597f;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0b2d3d;
+	border-radius: 4px;
+	color: white;
+	transition-duration: : 0.2s;
+	transition-timing-function: ease-out;
+}
+
+.btn:hover{
+	background-color: #1fb5e9;
+}
