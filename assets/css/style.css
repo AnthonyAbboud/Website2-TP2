@@ -29,19 +29,18 @@ header {
 	border-bottom: 1px solid;
 	border-bottom-color: #0b2d3d;
 }
-header > a > img {
-    height: 50%;
-    width: 50%;
-}
+
 header > a {
-	max-width: 1200px
+	max-width: 1200px;
+	height: 60px;
+	width: 20%;
     border: none;
 	float: left;
 }
 
 header > a > img {
-	height: 40%;
-	width: 40%;
+	height: 100%;
+	width: 100%;
 	padding-top: 7px;
 }
 
@@ -234,6 +233,10 @@ footer {
 	height: 80%;
 }
 
+.col > section > h2 {
+	font-size: 18px;
+}
+
 #product-form {
 	float: right;
 }
@@ -248,3 +251,74 @@ footer {
 input[type=number]::-webkit-inner-spin-button {
     opacity: 1
 }
+
+#product-form > button > span > i {
+	color: white;
+}
+
+#price-cart-info {
+	padding-top: 10px;
+	border-top: 1px dashed;
+	border-color: #C1C1C1;
+}
+
+/* 3.6 Page de contact */
+.col-contact {
+	float: left;
+	width: 33.33%;
+}
+
+.cols-contact {
+	border: 1px solid;
+	border-color: #999999;
+	border-radius: 4px;
+	height: 200px;
+}
+
+/* 3.7 Page du panier d'achats */
+.shopping-cart-table {
+	border-bottom: 1px solid;
+	border-color: black;
+}
+
+.shopping-cart-btns {
+	border-radius: 50%;
+	background-color: #dddddd;
+}
+
+.shopping-cart-btns:hover {
+	background-color: #bbbbbb;
+}
+
+#shopping-cart-total-price {
+	float: right;
+}
+
+#shopping-cart-empty {
+	float: left;
+}
+
+#shopping-cart-order {
+	float: right;
+}
+
+/* 3.8 Page de commande */
+.col1-row1, .col1-row2 {
+	float: left;
+	width: 50%;
+}
+
+.col2-row1, .col2-row2 {
+	float: right;
+	width: 50%;
+}
+
+#first-name, #last-name, #email, #phone, #credit-card, #credit-card-expiry {
+	width: 95%;
+}
+
+#btn-order {
+	float: right;
+}
+
+/* 3.9 Page de confirmation */
