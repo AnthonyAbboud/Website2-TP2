@@ -273,8 +273,11 @@ footer {
 .form-control {
 	border: 1px solid #999999;
 	border-radius: 4px;
-	width: 40px;
-	padding-left: 5px;
+	width: 60px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	padding-right: 5px;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -291,17 +294,51 @@ input[type=number]::-webkit-inner-spin-button {
 	border-color: #C1C1C1;
 }
 
+#add-cart-btn {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 10px;
+}
+
 /* 3.6 Page de contact */
 .col-contact {
 	float: left;
 	width: 33.33%;
 }
 
+.icon-text > a {
+	color: #0077CC;
+	text-decoration: none;
+}
+
+
+.icon-text > p {
+	margin-top: 0px;
+}
+
+.icone > span > i {
+	font-size: 70px;
+}
+
+.icone {
+	margin-bottom: 30px;
+}
+
 .cols-contact {
 	border: 1px solid;
 	border-color: #999999;
 	border-radius: 4px;
-	height: 200px;
+	height: 180px;
+	text-align: center;
+}
+
+.cols-contact > * {
+	padding-top: 35px;
+}
+
+#icone-envelope {
+	margin-right: 30px;	
 }
 
 /* 3.7 Page du panier d'achats */
