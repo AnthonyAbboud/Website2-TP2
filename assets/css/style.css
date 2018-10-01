@@ -342,21 +342,64 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 /* 3.7 Page du panier d'achats */
+
 .shopping-cart-table {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.shopping-cart-table{
 	border-bottom: 1px solid;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+}
+
+tr {
+	height: 35px;
+}
+
+td > button {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+tbody {
+	border-top: 1px solid;
 	border-color: black;
 }
 
+tbody > tr > td > a {
+	color: #0077CC;
+	text-decoration: none;
+}
+
+.shopping-cart-first-col {
+	max-width: 30px;
+	text-align: center;
+}
+
 .shopping-cart-btns {
+	border: none;
 	border-radius: 50%;
 	background-color: #dddddd;
+}
+
+.shopping-cart-btns > i {
+	font-size: 10px;
 }
 
 .shopping-cart-btns:hover {
 	background-color: #bbbbbb;
 }
 
-#shopping-cart-total-price {
+.shopping-cart-last-col{
+	margin-top: 4px;
+}
+
+#shopping-cart-total-price, #shopping-cart-order, .shopping-cart-last-col {
 	float: right;
 }
 
@@ -364,8 +407,9 @@ input[type=number]::-webkit-inner-spin-button {
 	float: left;
 }
 
-#shopping-cart-order {
-	float: right;
+.fa-trash-alt {
+	color: white;
+	padding-right: 10px;
 }
 
 /* 3.8 Page de commande */
@@ -386,5 +430,3 @@ input[type=number]::-webkit-inner-spin-button {
 #btn-order {
 	float: right;
 }
-
-/* 3.9 Page de confirmation */
