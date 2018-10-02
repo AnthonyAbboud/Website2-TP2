@@ -29,7 +29,7 @@ header {
 }
 
 .header-content {
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -85,6 +85,10 @@ header {
 
 .shopping-cart{
 	position: relative;
+}
+
+.sc-btns-total-price{
+	display: grid;
 }
 
 .count {
